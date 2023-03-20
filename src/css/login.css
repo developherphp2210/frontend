@@ -1,0 +1,89 @@
+:root{
+    box-sizing: border-box;
+}
+
+html , body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root{
+    height: 100%;
+}
+
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+
+#main{
+    background-color: #0e6a6a;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.login {
+    /* margin: 0 auto; */
+    /* background-color: brown; */
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.operatori{
+    height: 70%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.conferma{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tastiera{
+    height: 52%;
+    width: 35%;
+    /* background-color: blueviolet; */
+    display: grid;
+    padding: 5px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 5px;
+}
+
+.tasto{
+    font-size:xx-large;
+    border-radius: 10px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
